@@ -1,6 +1,7 @@
 #ifndef VULKAN_RENDERER_H
 #define VULKAN_RENDERER_H
 
+#define VK_USE_PLATFORM_ANDROID_KHR
 #include <vulkan/vulkan.h>
 #include <android/native_window.h>
 #include <vector>
