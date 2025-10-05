@@ -2,9 +2,9 @@ name: Android CI
 
 on:
   push:
-    branches: [ "main", "capy/*" ]
+    branches: [ "new-content-upload", "capy/*" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "new-content-upload" ]
   workflow_dispatch:
 
 jobs:
